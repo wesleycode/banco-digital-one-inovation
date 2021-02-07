@@ -1,0 +1,16 @@
+D:\Projetos\RiderProjects\Banco\Banco\bin\Debug\net5.0\Banco.exe
+D:\Projetos\RiderProjects\Banco\Banco\bin\Debug\net5.0\Banco.deps.json
+D:\Projetos\RiderProjects\Banco\Banco\bin\Debug\net5.0\Banco.runtimeconfig.json
+D:\Projetos\RiderProjects\Banco\Banco\bin\Debug\net5.0\Banco.runtimeconfig.dev.json
+D:\Projetos\RiderProjects\Banco\Banco\bin\Debug\net5.0\Banco.dll
+D:\Projetos\RiderProjects\Banco\Banco\bin\Debug\net5.0\ref\Banco.dll
+D:\Projetos\RiderProjects\Banco\Banco\bin\Debug\net5.0\Banco.pdb
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.csprojAssemblyReference.cache
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.AssemblyInfoInputs.cache
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.AssemblyInfo.cs
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.csproj.CoreCompileInputs.cache
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.dll
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\ref\Banco.dll
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.pdb
+D:\Projetos\RiderProjects\Banco\Banco\obj\Debug\net5.0\Banco.genruntimeconfig.cache
