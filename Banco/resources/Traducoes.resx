@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ENTRE_COM_A_OPCAO_DESEJADA" xml:space="preserve">
+        <value> Entre com a opção desejada: </value>
+    </data>
+    <data name="1-LISTAR_TODAS_AS_CONTAS" xml:space="preserve">
+        <value> 1 - Listar todas as contas </value>
+    </data>
+    <data name="2-CRIAR_NOVA_CONTA" xml:space="preserve">
+        <value> 2 - Criar nova conta </value>
+    </data>
+    <data name="3-TRANSFERIR" xml:space="preserve">
+        <value> 3 - Transferir </value>
+    </data>
+    <data name="4-SACAR" xml:space="preserve">
+        <value> 4 - Sacar </value>
+    </data>
+    <data name="5-DEPOSITAR" xml:space="preserve">
+        <value> 5 - Depositar </value>
+    </data>
+    <data name="X-SAIR" xml:space="preserve">
+        <value> X - Sair </value>
+    </data>
+    <data name="NENHUM_USUARIO_CADASTRADO" xml:space="preserve">
+        <value> Nenhum usuário cadastrado! </value>
+    </data>
+    <data name="CONTAS_CADASTRADAS" xml:space="preserve">
+        <value> Contas cadastradas </value>
+    </data>
+    <data name="NOME: " xml:space="preserve">
+        <value>NOME: </value>
+    </data>
+    <data name="SALDO: " xml:space="preserve">
+        <value>SALDO: </value>
+    </data>
+    <data name="TIPO_DE_CONTA: " xml:space="preserve">
+        <value>TIPO DE CONTA: </value>
+    </data>
+    <data name="ESC_PARA_VOLTAR.." xml:space="preserve">
+        <value>Esc para Voltar..</value>
+    </data>
+    <data name="CRIAR_NOVA_CONTA" xml:space="preserve">
+        <value> Criar nova conta </value>
+    </data>
+    <data name="DIGITE_1_PARA_PESSOA_FISICA_OU_2_PARA_PESSOA_JURIDICA" xml:space="preserve">
+        <value> Digite 1 para conta fisica ou 2 para conta juridica: </value>
+    </data>
+    <data name="DIGITE_SEU_NOME" xml:space="preserve">
+        <value> Digite o seu nome: </value>
+    </data>
+    <data name="DIGITE_O_SALDO_INICIAL" xml:space="preserve">
+        <value> Digite o saldo inicial: </value>
+    </data>
+    <data name="ENTRE_COM_SEU_CREDITO_DISPONIVEL" xml:space="preserve">
+        <value>Entre com seu crédito disponível: </value>
+    </data>
+    <data name="TRANSFERIR_VALOR" xml:space="preserve">
+        <value> Transferir valor </value>
+    </data>
+    <data name="DIGITE_O_ID_DA_CONTA_DE_ORIGEM" xml:space="preserve">
+        <value> Digite o ID da conta origem: </value>
+    </data>
+    <data name="DIGITE_O_ID_DA_CONTA_DESTINO" xml:space="preserve">
+        <value> Digite o ID da conta destino: </value>
+    </data>
+    <data name="DIGITE_O_VALOR_A_SER_TRANSFERIDO" xml:space="preserve">
+        <value> Digite o valor a ser transferido: </value>
+    </data>
+    <data name="SACAR_VALOR" xml:space="preserve">
+        <value> Sacar valor </value>
+    </data>
+    <data name="DIGITE_O_ID_DA_CONTA" xml:space="preserve">
+        <value> Digite o ID da conta </value>
+    </data>
+    <data name="DIGITE_O_VALOR_A_SER_SACADO_DA_CONTA" xml:space="preserve">
+        <value> Digite o valor a ser sacado da conta: </value>
+    </data>
+    <data name="DEPOSITAR_VALOR" xml:space="preserve">
+        <value> Depositar valor </value>
+    </data>
+    <data name="DIGITE_O_VALOR_A_SER_DEPOSITADO_NA_CONTA" xml:space="preserve">
+        <value> Digite o valor a ser depositado na conta: </value>
+    </data>
+    <data name="APLICACAO_FINALIZADA_COM_SUCESSO" xml:space="preserve">
+        <value> Aplicação finalizada com sucesso </value>
+    </data>
+    <data name="[{0}]_SEU_NOVO_SALDO_DA_SUA_CONTA_É:_[{1}]" xml:space="preserve">
+        <value>[{0}] Seu novo saldo da sua conta é: [{1}]</value>
+    </data>
+    <data name="TRANSFERENCIA_CONCLUIDA_COM_SUCESSO_PARA_[{0}],_O_NOVO_SALDO_É_DE:_[{1}]" xml:space="preserve">
+        <value>Transferencia concluída com sucesso para [{0}], o novo saldo é de: [{1}]</value>
+    </data>
+</root>

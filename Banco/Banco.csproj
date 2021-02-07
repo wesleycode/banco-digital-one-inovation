@@ -5,4 +5,19 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\Traducoes.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Traducoes.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\Traducoes.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Traducoes.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>

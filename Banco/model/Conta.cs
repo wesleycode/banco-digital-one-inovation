@@ -1,4 +1,5 @@
 ﻿using System;
+using Banco.Resources;
 
 namespace Banco.model
 {
@@ -54,14 +55,14 @@ namespace Banco.model
                 throw new Exception("Saldo insuficiente!");
             }
             saldo -= valor;
-            Console.WriteLine("> Usuario [{0}] Novo saldo da sua conta é: [{1}]", Nome, saldo);
+            Console.WriteLine(Traducoes.__0___SEU_NOVO_SALDO_DA_SUA_CONTA_É____1__, Nome, saldo);
             return true;
         }
         
         public void Depositar(double valor)
         {
             this.saldo += valor;
-            Console.WriteLine("> Usuario [{0}] Novo saldo da sua conta é: [{1}]", Nome, saldo);
+            Console.WriteLine(Traducoes.__0___SEU_NOVO_SALDO_DA_SUA_CONTA_É____1__, Nome, saldo);
         }
         
         public void Transferir(double valor, Conta contaDestino)
@@ -69,7 +70,7 @@ namespace Banco.model
             if (Sacar(valor))
             {
                 contaDestino.Depositar(valor);
-                Console.WriteLine("> Transferencia concluída com sucesso para [{0}], o novo saldo é de: [{1}]", contaDestino.nome, contaDestino.saldo);
+                Console.WriteLine(Traducoes.TRANSFERENCIA_CONCLUIDA_COM_SUCESSO_PARA___0____O_NOVO_SALDO_É_DE____1__, contaDestino.nome, contaDestino.saldo);
             }
         }
         

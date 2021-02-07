@@ -1,48 +1,71 @@
 ﻿using System;
+using Banco.controller;
+using Banco.Resources;
 
 namespace Banco.view
 {
     public class Menu
     {
-
-        private static bool ValidarEscolhaDoUsuario(string valor)
+        public Menu()
         {
-            if (!int.TryParse(valor, out int value) || valor.Length != 1)
-            {
-                return false;
-            }
-            return true;
+            StartLoop();
         }
-        
-        public static void FinalizarAplicacao()
+
+        private void FinalizarAplicacao()
         {
             Console.WriteLine("==============================");
-            Console.WriteLine(" Aplicação Finalizada Com Sucesso ");
+            Console.WriteLine(Traducoes.APLICACAO_FINALIZADA_COM_SUCESSO);
             Console.WriteLine("==============================");
         }
 
-        public static string LerTeclado()
+        private string LerTeclado()
         {
             return Console.ReadLine().ToUpper();
         }
-        public static void LimparConsole()
+        public void LimparConsole()
         {
             Console.Clear();
         }
-        public static void MostrarMenuDeOpcoes()
+        private void MostrarMenuDeOpcoes()
         {
             LimparConsole();
             Console.WriteLine("==============================");
             Console.WriteLine(" Digital Inovation One Bank ");
             Console.WriteLine("==============================");
-            Console.WriteLine(" Informe a opção desejada: ");
-            Console.WriteLine(" 1 - Listar Todas as Contas ");
-            Console.WriteLine(" 2 - Inserir Nova Conta ");
-            Console.WriteLine(" 3 - Transferir Dinheiro ");
-            Console.WriteLine(" 4 - Sacar Dinheiro ");
-            Console.WriteLine(" 5 - Depositar Dinheiro ");
-            Console.WriteLine(" 6 - Limpar Tela ");
-            Console.WriteLine(" X - Sair ");
+            Console.WriteLine(Traducoes.ENTRE_COM_A_OPCAO_DESEJADA);
+            Console.WriteLine(Traducoes._1_LISTAR_TODAS_AS_CONTAS);
+            Console.WriteLine(Traducoes._2_CRIAR_NOVA_CONTA);
+            Console.WriteLine(Traducoes._3_TRANSFERIR);
+            Console.WriteLine(Traducoes._4_SACAR);
+            Console.WriteLine(Traducoes._5_DEPOSITAR);
+            Console.WriteLine(Traducoes.X_SAIR);
+        }
+
+        private void StartLoop()
+        {
+
+            ContaController contaController = new ContaController();
+            
+            MostrarMenuDeOpcoes();
+            string opcao = LerTeclado();
+            
+            while (opcao != "X")
+            {
+                LimparConsole();
+                switch (opcao)
+                {
+                    case "1" : contaController.ListarContas(); break;
+                    case "2" : contaController.InserirConta(); break;
+                    case "3" : contaController.Transferir(); break;
+                    case "4" : contaController.Sacar(); break;
+                    case "5" : contaController.Depositar(); break;
+                    default : LimparConsole() ; break;
+                }
+                MostrarMenuDeOpcoes();
+                opcao = LerTeclado();
+            }
+            
+            FinalizarAplicacao();
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\RiderProjects\\Banco\\Banco\\Banco.csproj": {}
+    "D:\\Projetos\\C#\\banco-digital-one-inovation\\Banco\\Banco.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\RiderProjects\\Banco\\Banco\\Banco.csproj": {
+    "D:\\Projetos\\C#\\banco-digital-one-inovation\\Banco\\Banco.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\RiderProjects\\Banco\\Banco\\Banco.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\banco-digital-one-inovation\\Banco\\Banco.csproj",
         "projectName": "Banco",
-        "projectPath": "D:\\Projetos\\RiderProjects\\Banco\\Banco\\Banco.csproj",
+        "projectPath": "D:\\Projetos\\C#\\banco-digital-one-inovation\\Banco\\Banco.csproj",
         "packagesPath": "C:\\Users\\kakoa\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\RiderProjects\\Banco\\Banco\\obj\\",
+        "outputPath": "D:\\Projetos\\C#\\banco-digital-one-inovation\\Banco\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kakoa\\AppData\\Roaming\\NuGet\\NuGet.Config"

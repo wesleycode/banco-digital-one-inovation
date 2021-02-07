@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRg/dxjFaJorE6APsXU+nmwz2NPmqhC8RfGQ+8QN4X+BnmWyyehh8c/QbhJ/rJYeLLpzGrb46gODRAMaNHp/xw==",
+  "dgSpecHash": "9ss9cMsW8r69Hmbi/lZ2LxovlJQbgR7ZHXr74iTmZfyje7s2HE8v35XHmpTLhlgnQpK0VMXl/5pUodWJZB43Cw==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\RiderProjects\\Banco\\Banco\\Banco.csproj",
+  "projectFilePath": "D:\\Projetos\\C#\\banco-digital-one-inovation\\Banco\\Banco.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

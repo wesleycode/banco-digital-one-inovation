@@ -9,6 +9,11 @@
       "Banco/1.0.0": {
         "runtime": {
           "Banco.dll": {}
+        },
+        "resources": {
+          "en/Banco.resources.dll": {
+            "locale": "en"
+          }
         }
       }
     }
